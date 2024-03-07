@@ -1,0 +1,92 @@
+.rightbar{
+    flex: 3.5;
+}
+
+.rightbarWrapper{
+    padding: 20px 20px 0 0;
+}
+
+.birthdayContainer{
+display: flex;
+align-items: center;
+}
+
+.bithdayImg{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.bithdayText{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.rightbarAd{
+    width: 70%;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px auto;
+    display: block;
+}
+
+.rightbarTitle{
+    margin-bottom: 20px;
+}
+.rightbarFriendList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* ส่วนของ Profile */
+
+.rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo{
+    margin-bottom: 30px;
+}
+
+.rightbarInfoItem{
+    margin-bottom: 10px;
+}
+.rightbarInfokey{
+    font-weight: 500;
+    margin-right: 10px;
+    color: rgb(100, 100, 100);
+}
+
+.rightbarInfoValue{
+    font-weight: 300;
+}
+
+.rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+
+}
+
+.rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.rightbarFollowingName{
+    font-size: 12px;
+}
